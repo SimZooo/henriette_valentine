@@ -1,0 +1,52 @@
+body {
+  background-color: #FFF3CF;
+  font-family: "Brush Script MT", cursive;
+}
+
+h1.centered {
+  color: #E8C872;
+  margin-top: 10%;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+}
+
+div.centered {
+  text-align: center;
+  width: 100%;
+}
+
+img#love-you {
+  display: block;
+  margin: 0 auto;
+  width: 40%;
+  transform: scale(0.5);
+  position: relative;
+}
+
+div#buttons {
+  width: 80%;
+  margin: auto;
+}
+
+div#buttons button {
+  font-family: "Brush Script MT", cursive;
+  font-size: 1em;
+  color: #FFF3CF;
+  padding: 20px 30px;
+  border-width: 0;
+  border-radius: 10px;
+  background-color: #E8C872;
+}
+
+button:active {
+  transform: translateY(4px);
+}
+
+button#yes {
+  margin-right: 5%;
+}
+
+button#no {
+  margin-left: 5%;
+}
